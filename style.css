@@ -9,11 +9,11 @@ html {
 }
 
 body {
-  margin: 0;
+  /*margin: 0;*/
   font-family: 'Raleway', 'Helvetica Neue', Helvetica, Arial, sans-serif;
   background-color: #F5FAFA;
   color: #333333;
-  border: 26px solid #79AEF3;
+  /*border: 26px solid #79AEF3;*/
 }
 
 a {
