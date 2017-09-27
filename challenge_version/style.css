@@ -1,0 +1,152 @@
+@charset "utf-8";
+
+body {
+  font-family: 'Raleway', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+  background-color: #F5FAFA;
+  color: #333333;
+}
+
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
+div.block__links li {
+  transition-duration: 0.35s;
+}
+
+div.block__links li:hover {
+  margin-bottom: -1px;
+  border-bottom: 1px solid #333333;
+  transform: translateY(-4px);
+  transition-duration: 0.35s;
+}
+
+h1, h2, h3 {
+  margin: 15px 0 0 0;
+}
+
+h2:first-child {
+  margin: 0;
+}
+
+p a {
+  color: #737373;
+}
+
+p a:hover {
+  color: #79AEF3;
+}
+
+td h3 {
+  margin: 0;
+}
+
+td p {
+  margin: 15px 0 0 0;
+}
+
+tr {
+  display: inline-block;
+  padding: 20px 0;
+  border-bottom: 1px solid #D9D9D9;
+}
+
+tr:last-child {
+  border-bottom: 0;
+  padding: 20px 0 0 0;
+}
+
+ul {
+  padding: 0;
+  margin: 15px 0 0 0;
+}
+
+li {
+  display: inline-block;
+  margin-right: 26px;
+}
+
+li:last-child {
+  margin-right: 0;
+}
+
+i {
+  margin-right: 2px;
+}
+
+.image__profile {
+  border-radius: 50%;
+  width: 150px;
+}
+
+.image__food {
+  width: 150px;
+}
+
+.block {
+  margin: 54px auto;
+  padding: 36px;
+  border-radius: 6px;
+  background-color: #FFFFFF;
+  box-shadow: 2px 2px 10px #DCE1E1;
+  width: 45%;
+}
+
+.block__introduction {
+  text-align: center;
+}
+
+.block__links {
+  margin-top: 30px;
+}
+
+.btn--blue {
+  background-color: #79AEF3;
+  border-radius: 4px;
+  border: none;
+  color: #FDFDFD;
+  display: inline-block;
+  letter-spacing: 0.5px;
+  margin-top: 6px;
+  padding: 13px 16px 12px;
+  text-decoration: none;
+  text-transform: uppercase;
+  transition-duration: .35s;
+}
+
+.btn--blue:hover {
+  background-color: #3C8CF3;
+  padding: 13px 24px 12px;
+  transition-duration: .35s;
+}
+
+.text__food_desc {
+  font-size: 16px;
+  line-height: 125%;
+}
+
+.table-cell__text-cell {
+  padding-right: 15px;
+}
+
+
+@media (max-width: 960px) {
+  .block {
+    margin: 20px auto;
+    padding: 20px;
+    border-radius: 6px;
+    background-color: #FFFFFF;
+    box-shadow: 2px 2px 10px #DCE1E1;
+    width: 85%;
+  }
+}
+@media (max-width: 720px) {
+  .image__food {
+    display: none;
+  }
+}
+@media (max-width: 540px) {
+}
+
+/*font-family: 'Lobster', cursive;*/
